@@ -55,3 +55,5 @@ Inspect recorded `.npy` files:
 ```bash
 python3 view.py burst.npy        #simple viewer (arrow keys / slider)
 ```
+### AI usage
+AI was used to create/write some of this code. I tested it and it works, but be warned, I take not responsibility if it bricks or breaks something.
