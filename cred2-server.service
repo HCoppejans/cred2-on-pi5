@@ -1,0 +1,14 @@
+[Unit]
+Description=C-RED 2 Remote Acquisition Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=eltdev
+WorkingDirectory=/home/eltdev/cred2
+ExecStart=/home/eltdev/venv/bin/python3 /home/eltdev/cred2/cred2_server.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
